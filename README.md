@@ -250,7 +250,7 @@ Pour le détail complet, voir [GUIDE_PARAMETRES_ENTREPRISE.md](docs/GUIDE_PARAME
 
 1. **Cloner le projet**
 ```bash
-git clone https://github.com/patco18/pointflex.git
+git clone https://github.com/patco2026/pointflex.git
 cd pointflex
 ```
 
@@ -380,7 +380,7 @@ Le script d'initialisation PostgreSQL crée automatiquement la base `pointflex_t
 #### Avec Docker Compose
 ```bash
 # Sur votre serveur
-git clone https://github.com/patco18/pointflex.git
+git clone https://github.com/patco2026/pointflex.git
 cd pointflex
 
 # Configurer .env pour la production
@@ -532,7 +532,10 @@ MIT License - Voir le fichier LICENSE pour plus de détails.
 ---
 
 **PointFlex SaaS** - Solution complète de pointage pour entreprises modernes 🚀
-#   p o i n t f l e x  
- #   p o i n t f l e x  
- #   p o i n t f l e x  
+#   p o i n t f l e x 
+ 
+ #   p o i n t f l e x 
+ 
+ #   p o i n t f l e x 
+ 
  "# pointflex" 
