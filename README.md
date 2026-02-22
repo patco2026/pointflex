@@ -532,3 +532,5 @@ MIT License - Voir le fichier LICENSE pour plus de détails.
 ---
 
 **PointFlex SaaS** - Solution complète de pointage pour entreprises modernes 🚀
+#   p o i n t f l e x  
+ 
