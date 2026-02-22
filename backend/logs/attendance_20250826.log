@@ -1,0 +1,14 @@
+2025-08-26 23:02:53,017 [ERROR] ATTENDANCE ERROR: get_today_attendance - User: 3 - Details: (sqlite3.OperationalError) no such column: pointages.device_id
+[SQL: SELECT pointages.id AS pointages_id, pointages.user_id AS pointages_user_id, pointages.type AS pointages_type, pointages.date_pointage AS pointages_date_pointage, pointages.heure_arrivee AS pointages_heure_arrivee, pointages.heure_depart AS pointages_heure_depart, pointages.statut AS pointages_statut, pointages.latitude AS pointages_latitude, pointages.longitude AS pointages_longitude, pointages.office_id AS pointages_office_id, pointages.distance AS pointages_distance, pointages.mission_id AS pointages_mission_id, pointages.mission_order_number AS pointages_mission_order_number, pointages.is_equalized AS pointages_is_equalized, pointages.is_qr_scan AS pointages_is_qr_scan, pointages.is_offline AS pointages_is_offline, pointages.sync_status AS pointages_sync_status, pointages.offline_timestamp AS pointages_offline_timestamp, pointages.device_id AS pointages_device_id, pointages.delay_reason AS pointages_delay_reason, pointages.delay_category AS pointages_delay_category, pointages.is_justified AS pointages_is_justified, pointages.created_at AS pointages_created_at, pointages.updated_at AS pointages_updated_at 
+FROM pointages 
+WHERE pointages.user_id = ? AND pointages.date_pointage = ?
+ LIMIT ? OFFSET ?]
+[parameters: (3, '2025-08-26', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-08-26 23:02:53,331 [ERROR] ATTENDANCE ERROR: get_today_attendance - User: 3 - Details: (sqlite3.OperationalError) no such column: pointages.device_id
+[SQL: SELECT pointages.id AS pointages_id, pointages.user_id AS pointages_user_id, pointages.type AS pointages_type, pointages.date_pointage AS pointages_date_pointage, pointages.heure_arrivee AS pointages_heure_arrivee, pointages.heure_depart AS pointages_heure_depart, pointages.statut AS pointages_statut, pointages.latitude AS pointages_latitude, pointages.longitude AS pointages_longitude, pointages.office_id AS pointages_office_id, pointages.distance AS pointages_distance, pointages.mission_id AS pointages_mission_id, pointages.mission_order_number AS pointages_mission_order_number, pointages.is_equalized AS pointages_is_equalized, pointages.is_qr_scan AS pointages_is_qr_scan, pointages.is_offline AS pointages_is_offline, pointages.sync_status AS pointages_sync_status, pointages.offline_timestamp AS pointages_offline_timestamp, pointages.device_id AS pointages_device_id, pointages.delay_reason AS pointages_delay_reason, pointages.delay_category AS pointages_delay_category, pointages.is_justified AS pointages_is_justified, pointages.created_at AS pointages_created_at, pointages.updated_at AS pointages_updated_at 
+FROM pointages 
+WHERE pointages.user_id = ? AND pointages.date_pointage = ?
+ LIMIT ? OFFSET ?]
+[parameters: (3, '2025-08-26', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
